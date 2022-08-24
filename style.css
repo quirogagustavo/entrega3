@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none; /* no aparece el subrayado en los links */
+  list-style-type: none; /* Para que en las listas no aparezca el punto o el numero */
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: white;
+    justify-content:space-between;
+    border:2px solid grey;
+    margin: 20px 20px;
+    border-radius: 7px;
+    width: 95%;
+    padding: 10px 30px;
+    flex-direction: row;
+    position: fixed;
+    align-items:center;
+    top: 0;
+  }
+  .flex-item {
+    margin: 5px;
+    text-align:right;
+    line-height: 10px;
+    font-size: 18px;
+    display:flex;
+  }
+  .flex-item img {
+    height: 100%;
+    
+  }
+
+.flex-item ul {
+  width: 500px;
+  list-style:none;
+  margin: 20px 50px;
+  justify-content: space-between;
+} 
+
+main{
+  background:rgb(22, 149, 149);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-white);
+}
+
+.hero {
+  margin-top: 75px;
+  margin-left: 10px;
+  padding: 70px 0;
+/*  max-width: 1200px;*/
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+
+.slogan {
+  display:flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.slogan h1 {
+  background:radial-gradient(#f80808fe, #131413);
+  -webkit-background-clip: text;
+  color:transparent;
+  font-size: 30px;
+  font-weight: 600;
+  text-align:left;
+  margin-top: 75px;
+  padding-right: 30px;
+}
+
+.slogan p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.botones {
+  display: flex;
+  gap:20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.botones a {
+  border: solid 1px black;
+  border-radius: 5px;
+  background-color:rgb(22, 149, 149);
+  color: black;
+  width: 124px;
+  height: 28px;
+  text-align: center;
+  line-height: 22px;
+  }
+
+  #inicio {
+    background: white;
+  }
+
+.hero img {
+    width: 30%;
+
+}
+
+.tema {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 80%;
+}
+
+.tema h2{
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.tema p{
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+
+}
+
+.tema span{
+  font-weight: 800;
+}
